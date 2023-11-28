@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#titulo{
+    display: flex;
+    background-color: burlywood;
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    position: fixed;
+    width: 100%;
+}
+#Nombre{
+    width: 25%;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-size: 38px;
+    margin: 0;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    padding: 10%;
+    font-size: 20px;
+}
+#Botones{
+    text-align: center;
+    width: 75%;
+}
+#Inicio{
+    background-image: url('../Fotos/Peluqueriafondo.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.valoracion{
+    display: inline-block;
+    margin-top: 10px;
+    direction: rtl;
+}
+.valoracion input[type="radio"] {
+    display: none;
+}
+
+.valoracion label {
+    font-size: 24px;
+    color: #ddd;
+    cursor: pointer;
+}
+
+.valoracion label:before {
+    content: '\2605'; /* Carácter de estrella */
+}
+
+.valoracion input[type="radio"]:checked ~ label {
+    color: #ffcc00; /* Cambia el color cuando se selecciona */
+}
+.estrellas{
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255, 0.8);
+    border: 1px solid grey;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+legend{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center  ;
+}
+textarea{
+    width:98%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    height: 100px;
+}
+.Enviar{
+    text-align: center;
+}
+#Tercero{
+    background-image: url('../Fotos/Peluqueriaset.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+fieldset label{
+    color: black;
+    font-weight: bold;
+}
+#Contacto{
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+#Contacto h2{
+    font-size: 24px;
+    color: #363535;
+    margin-bottom: 10px;
+}
+#Contacto p{
+    font-size: 16px;
+    color:rgb(107, 107, 107);
+}
+#Contacto ul{
+    list-style-type: none;
+    padding: 0;
+}
+#Contacto li{
+    margin-bottom: 10px;
+}
+#Contacto a{
+    text-decoration: none;
+    color: #007bff;
+}
+#Contacto a:hover{
+    text-decoration: underline;
+}
+.Contacto-objeto{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+}
+
+.info li{
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+.Contacto-objeto{
+    font-weight: bold;
+}
+#Cuarto{
+    background-image: url('../Fotos/peluqueriacontacto.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.correo{
+    color: darkblue !important;
+}
+.telefono{
+    color: darkblue !important;
+}
+#AcercadeNosotros{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#AcercadeNosotros h2{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+#AcercadeNosotros h3{
+    font-size: 28px;
+    color: #ddd;
+}
+#AcercadeNosotros p{
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+}
+#Tarifas{
+    background-color: rgb(255, 255, 255, 0.8);
+    margin: 400px;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    border: 2px solid #333;
+    border-radius: 5px;
+    text-align: center;
+}
+#Tarifas h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+#Tarifas ul{
+    list-style-type: none;
+    padding: 0;
+}
+#Tarifas li{
+    font-size: 20px;
+    margin-bottom: 10px;    
+    color: #555
+}
+footer{
+    background-color: black;
+    color:#fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+#TerminosPrivacidad a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+#TermniosPrivacidad{
+    text-decoration: underline;
+}
+#Segundo{
+    background-image: url('../Fotos/Peluqueriamodelo.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.Indice{
+    display: inline-block;
+}
+.Indice-content{
+    display: none;
+    position: absolute;
+    background-color: brown;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.Indice:hover .Indice-content{
+    display: block;
+}
+.Indice-content a{
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+}
+.Indice-content a:hover{
+    background-color: #ccc;
+}
+#cion{
+    padding-left: 220px;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="CSS/Entrega.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="Segundo">
+    <div id="titulo">
+        <div id="Nombre">
+            <a href="index.html"><h1>Peluquerias<br> Garcia</h1></a>
+        </div>
+        <div id="Botones">
+            <div class = "Indice">
+                <a href="Tarifas.html" id="Tarifa">Tarifas</a>
+                <div class="Indice-content">
+                    <a href="Tarifas.html#corte">Corte</a>
+                    <a href="Tarifas.html#Tinte">Tinte</a>
+                    <a href="Tarifas.html#Uñas">Uñas</a>
+                </div>
+            </div>
+            <a href="Valoracion.html" id="cion">Valoracion</a>
+            <a href="Contacto.html">Contacto</a>
+        </div>
+    </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <form>
+        <fieldset class="estrellas">
+            <legend>Datos personales:</legend>
+            <div>
+                <label for="nombre">Nombre:</label><br><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+            </div>
+            <div>
+                <label for="apellidos">Apellidos:</label><br><br>
+                <input type="text" id="apellidos" name="apellidos" required><br><br>
+            </div>
+            <div>
+                <label for="fecha">Fecha de visita:</label><br><br>
+                <input type="date" id="fecha" name="fecha" required><br><br>
+            </div>
+        </fieldset>
+        <fieldset class="estrellas">
+            <legend>Valoración:</legend>
+                
+            <div>
+                <h3>Servicio</h3> 
+            </div>
+            <div class='valoracion'> 
+                <input type="radio" id="servicio_estrella5" name="servicio_valoracion" value="5">
+                <label for="servicio_estrella5"></label>
+                <input type="radio" id="servicio_estrella4" name="servicio_valoracion" value="4">
+                <label for="servicio_estrella4"></label>
+                <input type="radio" id="servicio_estrella3" name="servicio_valoracion" value="3">
+                <label for="servicio_estrella3"></label>
+                <input type="radio" id="servicio_estrella2" name="servicio_valoracion" value="2">
+                <label for="servicio_estrella2"></label>
+                <input type="radio" id="servicio_estrella1" name="servicio_valoracion" value="1">
+                <label for="servicio_estrella1"></label>
+            </div><br><br>
+            <div>
+                <h3>Comodidad</h3>
+            </div>
+            <div class='valoracion'> 
+                <input type="radio" id="Comodidad_estrella5" name="Comodidad_valoracion" value="5">
+                <label for="Comodidad_estrella5"></label>
+                <input type="radio" id="Comodidad_estrella4" name="Comodidad_valoracion" value="4">
+                <label for="Comodidad_estrella4"></label>
+                <input type="radio" id="Comodidad_estrella3" name="Comodidad_valoracion" value="3">
+                <label for="Comodidad_estrella3"></label>
+                <input type="radio" id="Comodidad_estrella2" name="Comodidad_valoracion" value="2">
+                <label for="Comodidad_estrella2"></label>
+                <input type="radio" id="Comodidad_estrella1" name="Comodidad_valoracion" value="1">
+                <label for="Comodidad_estrella1"></label>
+            </div><br><br>
+            <div>
+                <h3>Precio</h3> 
+            </div>
+            <div class='valoracion'> 
+                <input type="radio" id="Precio_estrella5" name="Precio_valoracion" value="5">
+                <label for="Precio_estrella5"></label>
+                <input type="radio" id="Precio_estrella4" name="Precio_valoracion" value="4">
+                <label for="Precio_estrella4"></label>
+                <input type="radio" id="Precio_estrella3" name="Precio_valoracion" value="3">
+                <label for="Precio_estrella3"></label>
+                <input type="radio" id="Precio_estrella2" name="Precio_valoracion" value="2">
+                <label for="Precio_estrella2"></label>
+                <input type="radio" id="Precio_estrella1" name="Precio_valoracion" value="1">
+                <label for="Precio_estrella1"></label>
+            </div><br><br>
+            <div>
+                <h3>Atención al cliente</h3>
+            </div>
+            <div class='valoracion'> 
+                <input type="radio" id="Atencion_al_cliente_estrella5" name="Atencion al cliente_valoracion" value="5">
+                <label for="Atencion_al_cliente_estrella5"></label>
+                <input type="radio" id="Atencion_al_cliente_estrella4" name="Atencion al cliente_valoracion" value="4">
+                <label for="Atencion_al_cliente_estrella4"></label>
+                <input type="radio" id="Atencion_al_cliente_estrella3" name="Atencion al cliente_valoracion" value="3">
+                <label for="Atencion_al_cliente_estrella3"></label>
+                <input type="radio" id="Atencion_al_cliente_estrella2" name="Atencion al cliente_valoracion" value="2">
+                <label for="Atencion_al_cliente_estrella2"></label>
+                <input type="radio" id="Atencion_al_cliente_estrella1" name="Atencion al cliente_valoracion" value="1">
+                <label for="Atencion_al_cliente_estrella1"></label>
+            </div><br><br>
+            <div>
+                <label for="comentarios">Comentarios:</label><br><br>
+                <textarea placeholder="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+            </div>
+        </fieldset>
+        <div class="Enviar">
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+    <footer>
+        <div id="TerminosPrivacidad">
+            <a>Términos de Servicio</a>
+            <a>Política de Privacidad</a>
+        </div>
+    </footer>
+</body>
+</html>
